@@ -2,6 +2,10 @@
 *.d
 
 # Object files
+
+/STM32F1_Project/Output/
+Item.uvguix.OfficeComputer
+
 *.o
 *.ko
 *.obj
