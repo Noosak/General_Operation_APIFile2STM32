@@ -16,7 +16,7 @@
         <TargetCommonOption>
           <Device>STM32F103C8</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x5000) IROM(0x08000000,0x10000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -188,7 +188,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\Libraries\FWlib\src;..\..\User\Generic_definition;..\..\User\Generic_definition\OLED</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\Libraries\FWlib\src;..\..\Doc\Generic_definition;..\..\Doc\Generic_definition\Generic_Inc;..\..\Doc\Generic_definition\Generic_Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -842,6 +842,18 @@
         </Group>
         <Group>
           <GroupName>Generic_Operation</GroupName>
+          <Files>
+            <File>
+              <FileName>Generic_GPIO.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Doc\Generic_definition\Generic_Src\Generic_GPIO.c</FilePath>
+            </File>
+            <File>
+              <FileName>Generic_Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Doc\Generic_definition\Generic_Src\Generic_Delay.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

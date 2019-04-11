@@ -1,0 +1,6 @@
+#ifndef _GENERIC_MICROCONTROLERTYPE_H_
+#define _GENERIC_MICROCONTROLERTYPE_H_
+#include <stdio.h>
+#define GENERIC_STM32F10X
+
+#endif
